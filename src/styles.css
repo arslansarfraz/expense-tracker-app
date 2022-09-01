@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap");
+body {
+  font-family: "Mukta", sans-serif;
+}
+.app {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  height: auto;
+}
+.textLeft {
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+.pt-50 {
+  padding-top: 50px;
+}
+.fweight {
+  font-weight: 700;
+  font-size: 30px;
+}
