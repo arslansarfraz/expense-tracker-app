@@ -4,7 +4,7 @@ body {
 }
 .app {
   text-align: center;
-  width: 500px;
+  width: 300px;
   margin: 0 auto;
   height: auto;
 }
@@ -24,4 +24,25 @@ h4 {
 .fweight {
   font-weight: 700;
   font-size: 30px;
+}
+.minus{
+  color: rgb(143, 15, 15);
+  font-weight: 700;
+}
+.plus{
+  color: rgb(33, 145, 33);
+  font-weight: 700;
+}
+.income{
+  display: inline-block;
+  padding-left: 50px;  
+}
+.expense{
+  display: inline-block;
+  padding-left: 50px;  
+
+}
+.bg{
+  background-color: #f1f1f1;
+  box-shadow: 1px #000;
 }
