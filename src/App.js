@@ -5,6 +5,7 @@ import "./styles.css";
 import Header from "./Components/Header";
 import { Balance } from "./Components/Balance";
 import AccountSummry from "./Components/AccountSummry";
+import TransactionHistroy from "./Components/TransactionHistroy";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Header />
       <Balance />
       <AccountSummry />
+      <TransactionHistroy />
     </div>
   );
 };
