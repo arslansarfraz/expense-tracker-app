@@ -2,47 +2,12 @@
 body {
   font-family: "Mukta", sans-serif;
 }
-.app {
-  text-align: center;
-  width: 300px;
-  margin: 0 auto;
-  height: auto;
+.mybtn {
+  display: none;
 }
-.textLeft {
-  text-align: left;
+.mylist:hover .mybtn {
+  display: block;
 }
-h1,
-h2,
-h3,
-h4 {
-  margin: 0;
-  padding: 0;
-}
-.pt-50 {
-  padding-top: 50px;
-}
-.fweight {
-  font-weight: 700;
-  font-size: 30px;
-}
-.minus{
-  color: rgb(143, 15, 15);
-  font-weight: 700;
-}
-.plus{
-  color: rgb(33, 145, 33);
-  font-weight: 700;
-}
-.income{
-  display: inline-block;
-  padding-left: 50px;  
-}
-.expense{
-  display: inline-block;
-  padding-left: 50px;  
-
-}
-.bg{
-  background-color: #f1f1f1;
-  box-shadow: 1px #000;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,6 +1,10 @@
 import React from "react";
 
 const Header = () => {
-  return <h1>Expense Tracker App</h1>;
+  return (
+    <div>
+      <h1 className="text-2xl font-bold text-center">Expense Tracker</h1>
+    </div>
+  );
 };
 export default Header;

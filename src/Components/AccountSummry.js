@@ -1,17 +1,19 @@
-import React from 'react';
-const AccountSummry = () => {
-    return (
-        <div className="textLeft bg">
-            <div className="income">
-                <h3>Income</h3>
-                <p className="plus">Rs: 300</p>
-            </div>
-            <div className="expense">
-                <h3>Expense</h3>
-                <p className="minus">Rs: 400</p>
-            </div>
-        </div>
-    );
-}
+import React from "react";
 
+const AccountSummry = () => {
+  return (
+    <div class="w-11/12 grid grid-cols-2 divide-x bg-white py-3 rounded-md	">
+      <div className="text-center">
+        INCOME
+        <br />
+        <span className="font-bold text-xl">$500.00</span>
+      </div>
+      <div className="text-center">
+        EXPENSE
+        <br />
+        <span className="font-bold text-xl">$500.00</span>
+      </div>
+    </div>
+  );
+};
 export default AccountSummry;

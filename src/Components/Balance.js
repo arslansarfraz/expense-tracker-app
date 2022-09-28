@@ -1,10 +1,11 @@
 import React from "react";
 
-export const Balance = () => {
+const Balance = () => {
   return (
-    <div className="textLeft pt-50">
-      <h3>YOURE BALANCE IS:</h3>
-      <h2 className="fweight">Rs: 1234</h2>
+    <div className="py-8">
+      <p>Your Balance</p>
+      <h2 className="text-2xl font-bold">$600.00</h2>
     </div>
   );
 };
+export default Balance;
