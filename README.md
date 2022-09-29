@@ -1,2 +1,4 @@
 # expense-tracker-app
-Created with CodeSandbox
+Hello my name is Arslan i build that expense-tracker-app using React Hooks and Context API and tailwindCss for frontend.
+Created with CodeSandbox :)
+
