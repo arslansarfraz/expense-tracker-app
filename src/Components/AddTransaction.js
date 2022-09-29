@@ -53,6 +53,11 @@ const AddTransaction = () => {
             placeholder="Dollar Value of Transaction"
             required="required"
           />
+          <p>
+            Note Please:
+            <br />
+            (Negitive-Expense, Positive+Income)
+          </p>
         </div>
         <div className="flex items-center justify-between">
           <button className=" btn bg-blue-500 hover:bg-blue-700 cursor-pointer text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Add Transaction</button>
