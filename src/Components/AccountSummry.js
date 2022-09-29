@@ -2,7 +2,7 @@ import React from "react";
 
 const AccountSummry = () => {
   return (
-    <div class="w-11/12 grid grid-cols-2 divide-x bg-white py-3 rounded-md	">
+    <div className="w-11/12 grid grid-cols-2 divide-x bg-white py-3 rounded-md	">
       <div className="text-center">
         INCOME
         <br />

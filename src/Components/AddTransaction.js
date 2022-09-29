@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 
 const AddTransaction = () => {
+  const [description, setDescription] = useState();
+  const [transactionAmount, setTransactionAmount] = useState();
+
   return (
     <div className="w-11/12">
       <h3 className="border-b-2 border-indigo-500 font-bold text-xl pt-4">
@@ -19,6 +22,8 @@ const AddTransaction = () => {
             id="text"
             type="text"
             placeholder="Text"
+            value={description}
+            onChange={(e) => setDescription(e.target.value)}
           />
         </div>
         <div className="mb-4">
@@ -33,6 +38,8 @@ const AddTransaction = () => {
             id="amount"
             type="number"
             placeholder="Amount"
+            value={transactionAmount}
+            onChange={(e) => setTransactionAmount(e.target.value)}
           />
           <p>
             Note Please:
