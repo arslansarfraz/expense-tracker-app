@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-// Import Components
+// Import components
 import Header from "./Components/Header";
 import Balance from "./Components/Balance";
 import AccountSummry from "./Components/AccountSummry";
